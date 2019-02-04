@@ -2,7 +2,7 @@ threex.rendererstats
 ====================
 
 It is a three.js extension to display realtime informations about ```THREE.WebGLRenderer```.
-Here is a [basic example](http://jeromeetienne.github.io/threex.rendererstats/examples/basic.html). It is widely inpired from @mrdoob [stats.js](https://github.com/mrdoob/stats.js/).
+Here is a [basic example](http://jeromeetienne.github.io/threex.rendererstats/examples/basic.html). It is widely inspired from @mrdoob [stats.js](https://github.com/mrdoob/stats.js/).
 It is released under MIT license.
 
 ## How To install it
@@ -16,7 +16,7 @@ for the manual version, first include ```threex.rendererstats.js``` with the usu
 ```
 
 or with
-[bower](http://bower.io/) 
+[bower](http://bower.io/)
 you type the following to install the package.
 
 ```bash
@@ -32,16 +32,16 @@ then you add that in your html
 ## How To Use It
 
 ```
-var rendererStats	= new THREEx.RendererStats()
+var rendererStats	= new THREEx.RendererStats();
 ```
 
 position it on the page with css with something along this line
 
 ```
-rendererStats.domElement.style.position	= 'absolute'
-rendererStats.domElement.style.left	= '0px'
-rendererStats.domElement.style.bottom	= '0px'
-document.body.appendChild( rendererStats.domElement )
+rendererStats.domElement.style.position	= 'absolute';
+rendererStats.domElement.style.left	= '0px';
+rendererStats.domElement.style.bottom	= '0px';
+document.body.appendChild( rendererStats.domElement );
 ```
 
 finally update it at every frame
